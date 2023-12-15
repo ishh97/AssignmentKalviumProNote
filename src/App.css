@@ -1,0 +1,41 @@
+body{
+  background-color: #3867D6;
+  color: white;
+}
+textarea{
+  background-color: #3867D6;
+  border-radius: 10px;
+  border: 2px solid black;
+  height: 600px;
+  width: 500px;
+  color: white;
+  font-size: 20px;
+  padding: 7px;
+}
+
+textarea:focus{
+  outline: none;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  height: 1vh;
+}
+.output{
+  background-color: rgb(43, 42, 42);
+  height: 600px;
+  width: 600px;
+  box-shadow: 5px 5px 5px 3px black;
+  border-radius: 10px;
+  
+  font-size: 25px;
+  padding: 7px;
+  word-wrap: break-word;
+}
+h3{
+  font-size: 30px;
+}
+.output-box{
+  margin: 0 30px;
+}
